@@ -51,7 +51,8 @@
 		{"src": "gnome:ostree",
 		 "name": "ostree-triggers",
 		 "bootstrap": true,
-		 "config-opts": ["--enable-triggers-only"]},
+		 "config-opts": ["--enable-triggers-only",
+				 "--with-systemdsystemunitdir=no"]},
 
 		{"src": "gnome:gnome-common",
 		 "component": "devel"},
@@ -601,7 +602,8 @@
 
 		{"src": "gnome:ostree",
 		 "config-opts": ["--disable-documentation",
-		                 "--with-soup-gnome"]},
+		                 "--with-soup-gnome",
+				 "--with-systemdsystemunitdir=/usr/lib/systemd/system"]},
 
 		{"src": "gnome:gnome-ostree-integration"},
 

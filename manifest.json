@@ -6,7 +6,7 @@
   "architectures": ["x86_64"],
   "base": {
             "name": "yocto",
-	    "src": "cgwalters:poky",
+	    "src": "djdeath:poky",
             "branch": "gnomeos-3.8-danny"
           },
 
@@ -31,7 +31,8 @@
                 "savannah": "git:git://git.savannah.gnu.org/",
                 "debian": "git:git://anonscm.debian.org/",
 		"netfilter": "git:git://git.netfilter.org/",
-		"cgwalters": "git:git://github.com/cgwalters/"},
+		"cgwalters": "git:git://github.com/cgwalters/",
+		"djdeath": "git:git://github.com/djdeath/"},
 
   "patches": {"src": "gnome:gnome-ostree",
               "subdir": "patches"},
